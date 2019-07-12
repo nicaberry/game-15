@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    border: 2px solid black;
+    box-sizing: border-box;
+    width: 404px;
+    height: 404px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 200px;
+    flex-wrap: wrap;
+}
+.cell {
+    box-sizing: border-box;
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+}
+.number {
+    background-color: rgb(23, 74, 133);
+    box-sizing: border-box;
+    width: 96px;
+    height: 96px;
+    text-align: center;
+    line-height: 96px;
+    vertical-align: middle;
+    font-size: 36px;
+    color: #fff;
+    cursor: pointer;
+}
+.startGame {
+   display: block;
+   margin: 0 auto;
+   margin-top: 50px;
+   width: 200px;
+   height: 50px;
+   font-size: 24px;
+}
+
+.noticeWin {
+    position: absolute;
+    width: 200px;
+    height: 90px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 90px;
+    vertical-align: middle;
+    font-size: 36px;
+    border: 3px solid black;
+    border-radius: 5%;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%);
+    /* display: none; */
+}
